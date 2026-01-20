@@ -1,0 +1,60 @@
+Bill of Materials
+
+ALU-LOGIC: 	 52 1N914  
+	  	 45 LEDs
+		 52 HK19F-DC5V Relays
+		 45 330 Ohm Resistors
+
+ALU-FULLADDER:	 62 1N914  
+	  	 21 LEDs
+		 63 HK19F-DC5V Relays
+		 21 330 Ohm Resistors
+
+CONTROLLER:	 60 1N914  
+	  	 2 2*12 connector
+		 60 HK19F-DC5V Relays
+
+DECODER:	 73 1N914  
+	  	 2 2*13 connector
+		 66 HK19F-DC5V Relays
+
+INCREMENTER:	 66 1N914  
+	  	 18 LEDs
+		 66 HK19F-DC5V Relays
+		 18 330 Ohm Resistors
+
+MEMORY:		 2 1uF Capacitors
+		 23 1N914  
+		 21 HK19F-DC5V Relays
+		 1 CY62256-70PC 256k RAM
+		 1 ULN2803A
+
+TIMING:		 4 10k uF Capacitors
+		 68 1N914  
+		 2 2*12 connector
+		 68 HK19F-DC5V Relays
+
+REGISTER:	 39 1N914 
+		 23 LEDs
+		 23 330 Ohm Resistors
+		 39 HK19F-DC5V Relays
+		 1 2*12 connector
+		 1 2*13 connector
+
+FRONT PANEL:	 76 LEDs 
+		 76 330 Ohm Resitors
+		 67 SPST Switches (~50/50 of momentary and non-momentary switches)
+		 
+( P.S: You need the register board 5 times for all the registers not included on any other board )
+
+In total:
+Relays: 591
+Diodes: 599
+LEDs: 275 (I have chosen 8mm LEDs for the Front Panel and 3mm LEDs for everything else, but 5mm LEDs fir on all boards)
+RESISTORS: 275
+CAPACITORS: 7 (The filter capacitor may not be needed on the Bridge board and the 4 capacitors on the Timing board may be too low of a value, and thus the oscillator may (or at least try to) run too fast for the relays)
+CONNECTORS: 5 2*12 connector
+	    3 2*13 connector
+	    4 2*2 connector
+	    4 2*32 idc connector
+	    12 2*50 edge card connector

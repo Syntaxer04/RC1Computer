@@ -1,0 +1,6 @@
+Changes for Version 0.2:
+
+	- fixed (hopefully) most of the wiring mistakes that I made
+	- changed the 3-to-8 Decoder configuration so that 000 is the NOP instruction
+	- changed the Bridge board and the connectors I use for the Boards
+ 	- Added a few boards to the System ( Storage, interfacing, etc.)
